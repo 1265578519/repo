@@ -5,7 +5,7 @@ baseurl=http://repo.itzmx.com/yum/mysql-connectors-community/el/6/$basearch/
         http://repo.mysql.com/yum/mysql-connectors-community/el/6/$basearch/
 enabled=1
 gpgcheck=0
-gpgkey=file:/etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
 
 [mysql-tools-community]
 name=MySQL Tools Community
@@ -14,7 +14,7 @@ baseurl=http://repo.itzmx.com/yum/mysql-tools-community/el/6/$basearch/
         http://repo.mysql.com/yum/mysql-tools-community/el/6/$basearch/
 enabled=1
 gpgcheck=0
-gpgkey=file:/etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
 
 # Enable to use MySQL 5.5
 [mysql55-community]
@@ -24,7 +24,7 @@ baseurl=http://repo.itzmx.com/yum/mysql-5.5-community/el/6/$basearch/
         http://repo.mysql.com/yum/mysql-5.5-community/el/6/$basearch/
 enabled=0
 gpgcheck=0
-gpgkey=file:/etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
 
 # Enable to use MySQL 5.6
 [mysql56-community]
@@ -45,4 +45,4 @@ baseurl=http://repo.itzmx.com/yum/mysql-5.7-community/el/6/$basearch/
         http://repo.mysql.com/yum/mysql-5.7-community/el/6/$basearch/
 enabled=0
 gpgcheck=0
-gpgkey=file:/etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
